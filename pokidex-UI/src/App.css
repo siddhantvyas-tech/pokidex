@@ -1,0 +1,51 @@
+/* src/App.css */
+.pokemon-search-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.pokemon-search-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.pokemon-search-container form {
+  margin-bottom: 20px;
+}
+
+.pokemon-search-container input {
+  padding: 10px;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.pokemon-search-container button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #ffcb05;
+  border: none;
+  cursor: pointer;
+}
+
+.pokemon-search-container button:hover {
+  background-color: #f0b500;
+}
+
+.pokemon-info {
+  margin-top: 20px;
+}
+
+.pokemon-info img {
+  margin-top: 20px;
+}
+
+.pokemon-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pokemon-info li {
+  display: inline-block;
+  margin: 0 10px;
+  font-weight: bold;
+}
